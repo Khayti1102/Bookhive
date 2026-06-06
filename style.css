@@ -1,51 +1,95 @@
-#parent{
+*{
+    font-size: 32px;
     
-    
-    height: 700px;
-   
-
 }
-#parent img{
-   
-    width: 100%;
-    height: 100%;
+body{
 
+    background-color: rgb(63, 63, 63);
 }
-
-#navbar{
-    background-color: rgba(188, 105, 28, 0.699);
-    height: 40px;
-    padding: 15px;
+h1 p{
+    color: aliceblue;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-family:Verdana;
+    font-weight: 700;  
+}
+#logo{
     display: flex;
-    
-    align-items: right;
-    justify-content: right;
-    
+    justify-self: center;
+    width: 400px;
+    height: fit-content;
+}
+#logo img{
+   max-width: 100%;
+   height: auto;
 
 }
-#container{
-    position: absolute;
-    top:40px;
-    margin: 10%;
-    height: 60%;
-    width: 70%;
-    background-color: rgba(11, 2, 2, 0.653);
-    color: white;
+#user_detail h1{
+    font-size: 50px;
+}
+#user_detail{
+    background-color: rgba(240, 248, 255, 0.395);
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    border: 0.5px solid rgb(255, 253, 253);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-self: center;
+    align-self: center;
     justify-content: center;
-    align-items: center;
-}
-#container:hover{
-    transform: scale(1.2);
-    transition :3s
+    align-items: center; 
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    box-shadow: 20px 20px 30px rgb(255, 252, 252);
 
 }
-#container h1:hover{
-    transform: scale(1.2);
-    transition :5s;
+.margn input{
+    border-color: aliceblue;
+    margin: 25px;
+    border-radius: 40px;
+    background-color:rgba(194, 194, 194, 0.354);
+    width:95%;
 }
-#container button{
-    background-color: greenyellow;
+
+#create-acct{
+    margin-top: 10%;
+    width: 100%;
+     display: flex;
+    align-items: center;
+
 }
+#user_detail button{
+    color: aliceblue;
+    border-radius: 10px;
+   border-color: rgba(255, 254, 254, 0.502);
+   background-color: rgba(212, 176, 125, 0.742);
+    width: 70%; 
+    margin: 25px;
+ 
+}
+
+#create-acct button{
+    color: aliceblue;
+   background-color: rgb(192, 180, 164);
+   border-radius: 10px;
+   border-color: rgb(243, 235, 225);
+    width: 90%;
+    margin: 25px;
+}
+button:hover{
+    transition: 1s;
+    box-shadow: 10px 10px 20px white;
+}
+.margn{
+    
+    
+padding: 15px;}
+ #user_detail input:hover{
+   
+    box-shadow: 10px 10px 20px white;
+
+}
+
 
